@@ -104,7 +104,7 @@ export default{
                 if(route.path === '/home/hosting'){
                     console.log('hello from host')
                     console.log(this.players)
-                    this.socket.emit('handle_ar_host',{roomid : this.$route.query.roomid,roomkey : this.$route.query.roomkey})
+                    this.socket.emit('handle_ar_host',{roomid : this.$route.query.roomid,roomkey : this.$route.query.roomkey});
                 }
             }
         },
