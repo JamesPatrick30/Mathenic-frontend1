@@ -125,7 +125,7 @@ export default{
     },
     mounted(){
         // this.socket = io('http://localhost:2000')
-        this.socket = io('https://mathenic-backend123.onrender.com');
+        this.socket = io('https://api.render.com/deploy/srv-ct263ebv2p9s738tucm0?key=rSq7CZOXjw4');
         this.handle_reload()
         this.socket.emit('connection','hello backend');
         this.socket.on('connection', (data)=>{
