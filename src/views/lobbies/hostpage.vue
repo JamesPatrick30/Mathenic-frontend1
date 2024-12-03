@@ -124,7 +124,7 @@ export default{
         }
     },
     mounted(){
-        // this.socket = io('http://localhost:2000')
+        // this.socket = io('http://localhost:2000');
         this.socket = io('https://mathenic-backend123.onrender.com');
         this.handle_reload()
         this.socket.emit('connection','hello backend');
